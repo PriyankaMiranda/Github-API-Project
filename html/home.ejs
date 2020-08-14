@@ -8,20 +8,37 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
-
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 </head>
 
 <body scroll="no">
-	<div class = "overlay">
+
+<!-- 	<div class = "overlay">
+	
         <form id="myForm1" class="overlay-text">
-            USERNAME : <input type="text" class="user-data" id="game-username"><br>            
+            USERNAME : <input type="text" class="user-data" id="game-username"><br>
             <input type="button" value="Enter" class="btn btn-success" id="existing-game">
         </form>
 
     </div>
-    <script src="home.js"></script>
+ -->
+
+    <script type="text/babel">
+      class Hello extends React.Component {
+        render() {
+          return <h1>Hello World!</h1>
+        }
+      }
+
+      ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+    </script>
+ 
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>    
+    <!-- <script type="text/javascript" src="./home.js"></script> -->
+    <!-- <script src="./home.js"></script> -->
+
 </body>
 
 </html>

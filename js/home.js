@@ -1,4 +1,6 @@
-console.log("data");
+// Call function passing in 'facebook' as GitHub username and 'react' as the repository 
+requestForks('facebook', 'react');
+
     
 function requestForks(owner, repo){
     
@@ -28,6 +30,3 @@ function requestForks(owner, repo){
     xhr.send();
     
 }
-
-// Call function passing in 'facebook' as GitHub username and 'react' as the repository 
-requestForks('facebook', 'react');

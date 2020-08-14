@@ -27,5 +27,5 @@ function requestForks(owner, repo){
     
 }
 
-// Call function passing in 'facebook' as GitHub username
+// Call function passing in 'facebook' as GitHub username and 'react' as the repository 
 requestForks('facebook', 'react');

@@ -1,3 +1,5 @@
+console.log("data");
+    
 function requestForks(owner, repo){
     
     // Create new XMLHttpRequest object

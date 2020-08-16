@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "babel":{
-    "presets" : [
+  "babel": {
+    "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
     ]
@@ -25,11 +25,13 @@
   },
   "homepage": "https://github.com/PriyankaMiranda/Github-API-Project#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "ejs": "^3.1.3",
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-paginate": "^6.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",

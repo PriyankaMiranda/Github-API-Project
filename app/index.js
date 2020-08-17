@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactPaginate from 'react-paginate';
+const { Octokit } = require("@octokit/core");
 import './index.css';
+const keys = require("./token.js");
 
 
 class App extends React.Component{
@@ -15,6 +17,7 @@ class App extends React.Component{
   	}
 
 	componentDidMount() {
+		console.log(keys.test)
 		var owner = 'facebook'
 		var repo = 'react'
 		var page = '1'

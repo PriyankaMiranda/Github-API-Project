@@ -14,8 +14,8 @@
 
 
 ## About?
-This project is created with the intent of exploring and understanding the Github API and its capabilities. The project is written in ReactJS. 
-This project visualises the users that forked a given repository. We can view the details of the given user and follow them.
+
+This project is created with the intent of exploring and understanding the Github API and its capabilities. The project is written in ReactJS. This project visualises the users that forked a given repository. We can view the details of the given user and follow them.
 
 ## Features
 
@@ -36,29 +36,29 @@ The features I am currently working on:
 
 ## Resources
 
-* **React** An open-source JavaScript library for building user interfaces or UI components, maintained by Facebook.
-* **Linux** Easier to work in.
-* **Authentication** The Ocokit library, assists with github authentication and other functions [Github](https://github.com/octokit/core.js#readme).
-* **Pagination** The Paginate library, provides an intuitive design and modules to paginate data across sites [Website](https://pagination.js.org/).
+* **React :** An open-source JavaScript library for building user interfaces or UI components, maintained by Facebook.
+* **Linux :** Easier to work in.
+* **Authentication :** The Ocokit library, assists with github authentication and other functions [Github](https://github.com/octokit/core.js#readme).
+* **Pagination :** The Paginate library, provides an intuitive design and modules to paginate data across sites [Website](https://pagination.js.org/).
 
 
 ## Demo images
 
 Authentication overlay
 
-![content](assets/img1.pmg)
+![content](assets/img1.png)
 
 Display Page 
 
-![content](assets/img2.pmg)
+![content](assets/img2.png)
 
 
 ## How to use this?
 
-1. Create a personal access token for your github account.
-2. Select user:follow(Follow and unfollow users) under user(Update all user data).
-3. Copy and paste the access token in the userData.js file OR enter it in the overlay screen.
-4. Enter the user and the repository name whose forks you'd like to explore in the userData.js file OR the overlay screen. 
+1. Create a personal access token for your github account. Go to https://github.com/settings/tokens
+2. Select **user:follow**(Follow and unfollow users) under **user**(Update all user data).
+3. Copy and paste the access token in the **userData.js** file OR enter it in the overlay screen.
+4. Enter the user and the repository name whose forks you'd like to explore in the **userData.js** file OR the overlay screen. 
 
 
 ## How can I help?

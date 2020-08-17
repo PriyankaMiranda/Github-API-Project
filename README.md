@@ -57,7 +57,12 @@ Display Page
 ## How to use this?
 
 1. Create a personal access token for your github account.
-2. Copy and paste the access token in the config file. 
+	1. PS, your token is only active for 10 minutes
+	1. Select user:follow(Follow and unfollow users) under user(Update all user data).
+	2. Copy and paste the access token in the token.js file.
+	3. The token.js file might not be present in the repository.
+	4. Update create file in that case maybe. 
+2. 	
 
 
 ## How can I help?

@@ -12,7 +12,11 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "create": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -23,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/PriyankaMiranda/Github-API-Project/issues"
   },
-  "homepage": "https://github.com/PriyankaMiranda/Github-API-Project#readme",
+  "homepage": "https://PriyankaMiranda.github.io/Github-API-Project",
   "dependencies": {
     "@octokit/core": "^3.1.2",
     "axios": "^0.19.2",
@@ -40,6 +44,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^4.2.1",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",

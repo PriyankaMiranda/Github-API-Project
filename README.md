@@ -49,7 +49,7 @@ Display Page
 1. Clone the project locally.
 2. Open the terminal inside the directory and run the command `npm install --save webpack-dev-server`.
 3. Run `npm run start` on the terminal. 
-4. Create a personal access token for your github account. Go to https://github.com/settings/tokens.
+4. Create a personal access token for your github account. Go to [https://github.com/settings/tokens](https://github.com/settings/tokens).
 5. Select **user:follow**(Follow and unfollow users) under **user**(Update all user data).
 6. Copy and paste the access token in the **userData.js** file OR enter it in the overlay screen.
 7. Enter the users and repositorys name whose forks you'd like to explore in the **userData.js** file OR enter it in the overlay screen. 
